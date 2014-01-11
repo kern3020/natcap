@@ -1,0 +1,6 @@
+python-dateutils
+pyparsing
+beautifulsoup4
+Mock
+Poster
+dbfpy
