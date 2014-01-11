@@ -47,11 +47,11 @@ Section -Prerequisites
     ExecWait "$INSTDIR\prereq\pip-1.5.win32-py2.7.exe"
     Goto endPIP
   endPIP:  
-  MessageBox MB_YESNO "Install setuptools 2.0.2 for Python 2.7?" /SD IDYES IDNO endPIP
+  MessageBox MB_YESNO "Install setuptools 2.0.2 for Python 2.7?" /SD IDYES IDNO endSetupTools
     File "prereq\setuptools-2.0.2.win32-py2.7.exe"
     ExecWait "$INSTDIR\prereq\setuptools-2.0.2.win32-py2.7.exe"
     Goto endPIP
-  endPIP:
+  endSetupTools:
   ; install matplotlib last because there are a lot of dependencies. 
 SectionEnd
 
