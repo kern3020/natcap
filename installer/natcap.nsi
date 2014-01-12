@@ -1,6 +1,6 @@
 ; natcap.nsi
 ;
-; This script is a NSIs to install InVEST. For now, all of the
+; This script is a NSIS to install InVEST. For now, all of the
 ; optional settings are left to their default settings.
 ;
 ;--------------------------------
