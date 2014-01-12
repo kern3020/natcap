@@ -1,0 +1,8 @@
+descriptions of snippets:
+* get_python.nsi - how to get the path to the python executable. 
+
+Questions
+* We install a lot (~16) of embedded installers including python. 
+     - What happens if the user wants to uninstall them? 
+     - What happens if we need to update one(numpy, gdal)? 
+
